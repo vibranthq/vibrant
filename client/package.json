@@ -1,24 +1,36 @@
 {
   "name": "web",
+  "description": "client",
   "version": "0.1.0",
-  "private": true,
+  "scripts": {
+    "build": "react-scripts-ts build",
+    "eject": "react-scripts-ts eject",
+    "start": "react-scripts-ts start",
+    "test": "react-scripts-ts test --env=jsdom"
+  },
   "dependencies": {
     "auth0-js": "^9.7.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-scripts-ts": "2.17.0"
-  },
-  "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts-ts": "3.1.0"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.1",
-    "@types/node": "^10.9.3",
-    "@types/react": "^16.4.12",
-    "@types/react-dom": "^16.0.7",
-    "typescript": "^3.0.1"
+    "@types/jest": "^24.0.6",
+    "@types/node": "^11.9.4",
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "typescript": "^3.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/vibranthq/vibrant/issues"
+  },
+  "homepage": "https://github.com/vibranthq/vibrant",
+  "keywords": [
+    "vibrant"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibranthq/vibrant.git"
   }
 }
