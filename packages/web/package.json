@@ -1,7 +1,9 @@
 {
-  "name": "web",
+  "name": "@vib/web",
   "description": "client",
   "version": "0.1.0",
+  "author": "Yasuaki Uechi",
+  "main": "build/index.html",
   "scripts": {
     "build": "react-scripts-ts build",
     "eject": "react-scripts-ts eject",
@@ -9,17 +11,16 @@
     "test": "react-scripts-ts test --env=jsdom"
   },
   "dependencies": {
-    "auth0-js": "^9.7.3",
-    "react": "^16.8.2",
-    "react-dom": "^16.8.2",
+    "auth0-js": "^9.10.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
     "react-scripts-ts": "3.1.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.6",
-    "@types/node": "^11.9.4",
-    "@types/react": "^16.8.3",
-    "@types/react-dom": "^16.8.2",
-    "typescript": "^3.3.3"
+    "@types/node": "^11.11.7",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3"
   },
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
@@ -28,7 +29,7 @@
   "keywords": [
     "vibrant"
   ],
-  "private": true,
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/vibranthq/vibrant.git"
