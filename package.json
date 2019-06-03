@@ -8,7 +8,7 @@
     "start": "yarn workspaces run start"
   },
   "devDependencies": {
-    "typescript": "^3.3.4000"
+    "typescript": "^3.5.1"
   },
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"

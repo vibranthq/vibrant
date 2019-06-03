@@ -11,16 +11,16 @@
     "test": "react-scripts-ts test --env=jsdom"
   },
   "dependencies": {
-    "auth0-js": "^9.10.1",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
+    "auth0-js": "^9.10.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-scripts-ts": "3.1.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.6",
-    "@types/node": "^11.11.7",
-    "@types/react": "^16.8.8",
-    "@types/react-dom": "^16.8.3"
+    "@types/jest": "^24.0.13",
+    "@types/node": "^12.0.4",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4"
   },
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
