@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "Project",
+      "path": "."
+    },
+    {
+      "name": "Web",
+      "path": "packages/web"
+    },
+    {
+      "name": "API",
+      "path": "packages/api"
+    }
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": ["Project"]
+  }
+}

@@ -4,12 +4,8 @@
   "version": "0.1.0",
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "main": "index.js",
-  "scripts": {
-    "start": "yarn workspaces run start"
-  },
-  "devDependencies": {
-    "typescript": "^3.5.1"
-  },
+  "scripts": {},
+  "devDependencies": {},
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
@@ -20,10 +16,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vibranthq/vibrant.git"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
   }
 }

@@ -13,13 +13,15 @@
     "cors": "^2.8.4",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
-    "helmet": "^3.18.0",
-    "jwks-rsa": "^1.5.1",
-    "mongoose": "^5.5.14",
+    "helmet": "^3.20.0",
+    "jwks-rsa": "^1.6.0",
+    "mongoose": "^5.6.9",
     "morgan": "^1.9.0",
     "passport": "^0.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
