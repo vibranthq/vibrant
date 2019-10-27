@@ -21,10 +21,7 @@
     }
   },
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vibranthq/vibrant.git"
-  },
+  "repository": "git+https://github.com/vibranthq/vibrant.git",
   "workspaces": [
     "packages/*"
   ]
