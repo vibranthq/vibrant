@@ -5,21 +5,30 @@
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "dev": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\""
   },
   "dependencies": {
     "body-parser": "^1.19.0",
     "bull": "^3.10.0",
     "cors": "^2.8.4",
+    "corser": "^2.0.1",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
+    "express-session": "^1.16.2",
     "helmet": "^3.20.0",
     "jwks-rsa": "^1.6.0",
+    "lusca": "^1.6.1",
+    "mongo": "^0.1.0",
     "mongoose": "^5.6.9",
     "morgan": "^1.9.0",
-    "passport": "^0.4.0"
+    "passport": "^0.4.0",
+    "passport-auth0": "^1.2.1"
   },
   "devDependencies": {
+    "@types/express-session": "^1.15.13",
+    "@types/passport": "^1.0.0",
+    "@types/passport-auth0": "^1.0.2",
+    "tsc-watch": "^2.4.0",
     "typescript": "^3.5.3"
   },
   "bugs": {
