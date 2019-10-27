@@ -4,16 +4,22 @@
   "version": "0.1.0",
   "scripts": {},
   "devDependencies": {
-    "lerna": "^3.18.3"
+    "husky": "^3.0.9",
+    "lerna": "^3.18.3",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0"
   },
   "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
   "license": "MIT",
-  "main": "index.js",
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
   "homepage": "https://github.com/vibranthq/vibrant#readme",
-  "keywords": [],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "private": true,
   "repository": {
     "type": "git",
