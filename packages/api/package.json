@@ -2,8 +2,6 @@
   "name": "@vib/api",
   "description": "server",
   "version": "1.0.0",
-  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
-  "main": "index.js",
   "scripts": {
     "dev": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\""
   },
@@ -31,6 +29,9 @@
     "tsc-watch": "^4.0.0",
     "typescript": "^3.5.3"
   },
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
+  "license": "MIT",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
@@ -38,7 +39,6 @@
   "keywords": [
     "vibrant"
   ],
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/vibranthq/vibrant.git"

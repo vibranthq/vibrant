@@ -1,9 +1,6 @@
 {
   "name": "core",
   "version": "0.0.0",
-  "main": "index.js",
-  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
-  "license": "MIT",
   "dependencies": {
     "rehype-stringify": "^6.0.0",
     "remark-parse": "^7.0.1",
@@ -14,5 +11,8 @@
   "devDependencies": {
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
-  }
+  },
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
+  "license": "MIT",
+  "main": "index.js"
 }
