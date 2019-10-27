@@ -2,19 +2,24 @@
   "name": "vibrant",
   "description": "publishing platform",
   "version": "0.1.0",
-  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
-  "main": "index.js",
   "scripts": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  },
+  "author": "Yasuaki Uechi <y@uechi.io> (https://uechi.io/)",
+  "license": "MIT",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
   "homepage": "https://github.com/vibranthq/vibrant#readme",
   "keywords": [],
-  "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vibranthq/vibrant.git"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

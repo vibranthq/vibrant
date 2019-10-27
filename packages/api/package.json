@@ -28,7 +28,7 @@
     "@types/express-session": "^1.15.13",
     "@types/passport": "^1.0.0",
     "@types/passport-auth0": "^1.0.2",
-    "tsc-watch": "^2.4.0",
+    "tsc-watch": "^4.0.0",
     "typescript": "^3.5.3"
   },
   "bugs": {
