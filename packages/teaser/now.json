@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "vibrant-teaser",
+  "alias": "vibrant.pub",
+  "builds": [
+    {
+      "src": "static/**",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/static/$1"
+    }
+  ]
+}
