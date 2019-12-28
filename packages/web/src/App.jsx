@@ -4,46 +4,46 @@ import {
   ContentState,
   convertToRaw,
   convertFromRaw,
-} from 'draft-js'
-import * as React from 'react'
-import './App.css'
+} from 'draft-js';
+import * as React from 'react';
+import './App.css';
 
 function encodeContentState(contentState) {
-  return btoa(JSON.stringify(convertToRaw(contentState)))
+  return btoa(JSON.stringify(convertToRaw(contentState)));
 }
 
 function decodeContentState(encoded) {
   if (!encoded) {
-    return ContentState.createFromText('test')
+    return ContentState.createFromText('test');
   }
-  return convertFromRaw(JSON.parse(atob(encoded)))
+  return convertFromRaw(JSON.parse(atob(encoded)));
 }
 
 function App() {
   const [editorState, setEditorState] = React.useState(() =>
     EditorState.createWithContent(
-      decodeContentState(localStorage.getItem('savedContentState'))
-    )
-  )
+      decodeContentState(localStorage.getItem('savedContentState')),
+    ),
+  );
 
-  const editor = React.useRef(null)
+  const editor = React.useRef(null);
 
   function focusEditor() {
-    editor.current.focus()
+    editor.current.focus();
   }
 
   function onChangeEditorState(state) {
-    setEditorState(state)
+    setEditorState(state);
   }
 
   React.useEffect(() => {
-    focusEditor()
-  }, [])
+    focusEditor();
+  }, []);
 
   React.useEffect(() => {
-    const rawContent = encodeContentState(editorState.getCurrentContent())
-    localStorage.setItem('savedContentState', rawContent)
-  }, [editorState])
+    const rawContent = encodeContentState(editorState.getCurrentContent());
+    localStorage.setItem('savedContentState', rawContent);
+  }, [editorState]);
 
   return (
     <div className="App">
@@ -55,7 +55,7 @@ function App() {
         />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
