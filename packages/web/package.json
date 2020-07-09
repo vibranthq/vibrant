@@ -9,20 +9,20 @@
     "test": "react-scripts test --env=jsdom"
   },
   "dependencies": {
-    "draft-js": "^0.11.3",
+    "draft-js": "^0.11.6",
     "draft-js-inline-toolbar-plugin": "^3.0.0",
     "draft-js-plugins-editor": "^3.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "^3.3.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
   },
   "devDependencies": {
-    "@types/draft-js": "^0.10.35",
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.1",
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "^3.7.4"
+    "@types/draft-js": "^0.10.43",
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.20",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^3.9.6"
   },
   "author": "Yasuaki Uechi",
   "license": "MIT",
