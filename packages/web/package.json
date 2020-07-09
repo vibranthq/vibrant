@@ -2,6 +2,7 @@
   "name": "@vib/web",
   "description": "client",
   "version": "0.1.0",
+  "author": "Yasuaki Uechi",
   "scripts": {
     "build": "react-scripts build",
     "eject": "react-scripts eject",
@@ -24,9 +25,19 @@
     "@types/react-dom": "^16.9.8",
     "typescript": "^3.9.6"
   },
-  "author": "Yasuaki Uechi",
-  "license": "MIT",
   "main": "build/index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibranthq/vibrant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vibranthq/vibrant/issues"
+  },
+  "homepage": "https://github.com/vibranthq/vibrant",
+  "keywords": [
+    "vibrant"
+  ],
+  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,16 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "bugs": {
-    "url": "https://github.com/vibranthq/vibrant/issues"
-  },
-  "homepage": "https://github.com/vibranthq/vibrant",
-  "keywords": [
-    "vibrant"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vibranthq/vibrant.git"
   }
 }
