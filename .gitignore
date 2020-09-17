@@ -1,6 +1,4 @@
 .vscode
-/packages/api/dist
-/packages/web/build
 
 # Logs
 logs

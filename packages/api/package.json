@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsc-watch --outDir dist --onSuccess \"node dist/index.js\""
   },
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "bull": "^3.15.0",
@@ -14,7 +15,7 @@
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
     "express-session": "^1.17.1",
-    "helmet": "^3.23.3",
+    "helmet": "^4.1.1",
     "jwks-rsa": "^1.8.1",
     "lusca": "^1.6.1",
     "mongo": "^0.1.0",
@@ -28,9 +29,9 @@
     "@types/passport": "^1.0.4",
     "@types/passport-auth0": "^1.0.4",
     "tsc-watch": "^4.2.9",
-    "typescript": "^3.9.6"
+    "typescript": "^4.0.2"
   },
-  "main": "index.js",
+  "homepage": "https://github.com/vibranthq/vibrant",
   "repository": {
     "type": "git",
     "url": "https://github.com/vibranthq/vibrant.git"
@@ -38,9 +39,8 @@
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
-  "homepage": "https://github.com/vibranthq/vibrant",
+  "license": "MIT",
   "keywords": [
     "vibrant"
-  ],
-  "license": "MIT"
+  ]
 }

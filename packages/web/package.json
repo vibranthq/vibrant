@@ -9,6 +9,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test --env=jsdom"
   },
+  "main": "build/index.html",
   "dependencies": {
     "draft-js": "^0.11.6",
     "draft-js-inline-toolbar-plugin": "^3.0.0",
@@ -23,9 +24,9 @@
     "@types/node": "^14.0.20",
     "@types/react": "^16.9.41",
     "@types/react-dom": "^16.9.8",
-    "typescript": "^3.9.6"
+    "typescript": "^4.0.2"
   },
-  "main": "build/index.html",
+  "homepage": "https://github.com/vibranthq/vibrant",
   "repository": {
     "type": "git",
     "url": "https://github.com/vibranthq/vibrant.git"
@@ -33,11 +34,10 @@
   "bugs": {
     "url": "https://github.com/vibranthq/vibrant/issues"
   },
-  "homepage": "https://github.com/vibranthq/vibrant",
+  "license": "MIT",
   "keywords": [
     "vibrant"
   ],
-  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",
